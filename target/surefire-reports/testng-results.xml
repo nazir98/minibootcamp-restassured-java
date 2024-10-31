@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-31T11:47:08 WIB" name="Parallel Execution Suite" finished-at="2024-10-31T11:47:10 WIB" duration-ms="2354">
+    <groups>
+    </groups>
+    <test started-at="2024-10-31T11:47:08 WIB" name="MyTestGroup" finished-at="2024-10-31T11:47:10 WIB" duration-ms="2354">
+      <class name="TaskRestAssured">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TaskRestAssured@747edf66]" started-at="2024-10-31T11:47:08 WIB" name="setUp" finished-at="2024-10-31T11:47:08 WIB" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getAllObjects()[pri:0, instance:TaskRestAssured@747edf66]" started-at="2024-10-31T11:47:08 WIB" name="getAllObjects" finished-at="2024-10-31T11:47:10 WIB" duration-ms="1237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllObjects -->
+        <test-method signature="postObject()[pri:0, instance:TaskRestAssured@747edf66]" started-at="2024-10-31T11:47:08 WIB" name="postObject" finished-at="2024-10-31T11:47:10 WIB" duration-ms="1899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postObject -->
+        <test-method signature="getObjectById()[pri:0, instance:TaskRestAssured@747edf66]" started-at="2024-10-31T11:47:08 WIB" name="getObjectById" finished-at="2024-10-31T11:47:10 WIB" duration-ms="1237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getObjectById -->
+      </class> <!-- TaskRestAssured -->
+    </test> <!-- MyTestGroup -->
+  </suite> <!-- Parallel Execution Suite -->
+</testng-results>
